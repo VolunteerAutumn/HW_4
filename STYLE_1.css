@@ -1,0 +1,124 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(6, 260px);
+	grid-template-rows: repeat(4, 300px);
+	background-color: #29343d;
+	padding: 20px;
+	gap: 25px;
+	margin: 0px;
+	padding-top: 85px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.rhombus_thingy {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(to bottom right, #fbfcfc, #dfdfdf);
+  transform: rotate(45deg);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.number {
+	transform: rotate(-45deg);
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+
+.block1 {
+	grid-column: 2 / span 3;
+	grid-row: 1 / span 2;
+	background-color: orange;
+	align-items: center;
+	background: linear-gradient(to bottom left, #fa57f5, #cbabfb);
+}
+
+.block2 {
+	grid-column: 3/ span 2;
+	grid-row: 3/ span 2;
+	background: linear-gradient(to bottom left, #cbabfb, #fa57f5);
+}
+.block3 {
+	grid-column: 5/ span 2;
+	grid-row: 1;
+	background: linear-gradient(to bottom left, #58f5e5, #80c0ed);
+}
+.block4 {
+	grid-column: 5/ span 2;
+	grid-row: 2;
+	background: linear-gradient(to top right, #58f5e5, #80c0ed);
+}
+.block5 {
+	grid-column: 1;
+	grid-row: 1;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+.block6 {
+	grid-column: 1;
+	grid-row: 2;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block7 {
+	grid-column: 1;
+	grid-row: 3;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block8 {
+	grid-column: 1;
+	grid-row: 4;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block9 {
+	grid-column: 2;
+	grid-row: 3;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block10 {
+	grid-column: 2;
+	grid-row: 4;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block11 {
+	grid-column: 5;
+	grid-row: 3;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block12 {
+	grid-column: 6;
+	grid-row: 3;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block13 {
+	grid-column: 5;
+	grid-row: 4;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
+
+.block14 {
+	grid-column: 6;
+	grid-row: 4;
+	background: linear-gradient(to bottom left, #f765a4, #edd993);
+}
