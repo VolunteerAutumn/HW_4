@@ -1,9 +1,13 @@
 # _______PART II_______
 # ----1
 def return_the_sum(start, end):
-	return sum(range(start, end+1))
+    if start > end:
+        return sum(range(end, start + 1))
+    else:
+        return sum(range(start, end + 1))
 
 print(return_the_sum(1, 10))
+print(return_the_sum(10, 1))
 
 # ----2
 list1 = [1, 2, 3, 4, 5]
